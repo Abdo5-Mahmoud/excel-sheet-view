@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* active:ring-1 active:ring-slate-500 active:ring-offset-1 */
+.active {
+  /* border: 1px solid rgb(85, 82, 82); */
+  outline: 1px solid black;
+  outline-offset: 2px;
+}
